@@ -6,7 +6,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import theme from "./config/theme";
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import AuthProvider from "./auth/context/AuthProvider";
 
 // Create a client
 const queryClient = new QueryClient();
